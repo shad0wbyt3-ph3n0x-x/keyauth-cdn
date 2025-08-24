@@ -10,7 +10,7 @@ var KTDatatables = function () {
             processing: true,
             serverSide: true,
             ajax: {
-                url: 'includes/api/admin/License/fetch.php',
+                url: '/app/license-fetch.php',
                 type: 'POST'
             },
             columns: [
